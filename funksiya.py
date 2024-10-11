@@ -4,7 +4,7 @@ def ism_sora(yil, xozir=2024):
         print("Siz hali Tug'ilmagansiz")
     else:
         print(f"Siz {xozir - yil} yoshdasiz")
-ism_sora(2024)
+ism_sora(2007)
 
 # Keyingi ->
 
@@ -18,10 +18,10 @@ yil_sora(10)
 def juft_toq(raqam):
     """JufYoki Toq sonni Aniqlaydigan Funksiya"""
     if raqam%2 == 0:
-        print("Bu Raqam Juft Son")
+        print("Bu son Juft Son")
     else:
         print("Bu Toq Son")
-juft_toq(20)
+juft_toq(21)
 
 # Keyingi ->
 
@@ -32,4 +32,4 @@ def katta_teng(number, number2):
         print(f"{number2} raqami {number} raqamidan Katta")
     else:
         print("Sonlar Teng")
-katta_teng(number=5, number2=10)
+katta_teng(5, 5)
