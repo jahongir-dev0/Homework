@@ -22,3 +22,14 @@ def juft_toq(raqam):
     else:
         print("Bu Toq Son")
 juft_toq(20)
+
+# Keyingi ->
+
+def katta_teng(number, number2):
+    if number > number2:
+        print(f"{number} raqami {number2} raqamidan Katta")
+    elif number2 > number:
+        print(f"{number2} raqami {number} raqamidan Katta")
+    else:
+        print("Sonlar Teng")
+katta_teng(number=5, number2=10)
