@@ -7,10 +7,10 @@ class User:
         self.location = location
 
     def get_info(self):
-        return f"Foydalanuvchi: {self.username}, ismi: {self.full_name}, email: {self.email}, yosh: {self.age}, joylashuvi: {self.location}"
+        return f"Foydalanuvchi: {self.username}, Ismi: {self.full_name}, Email: {self.email}, Yosh: {self.age}, Joylashuvi: {self.location}"
 
-user1 = User("Alijon Valiyev", "alijon1994", "alijon1994@gmail.com", 30, "Toshkent")
-user2 = User("Aliya Mirzaeva", "aliya_m", "aliya_m@gmail.com", 28, "Samarqand")
+user1 = User("Ruslon Ozodov", "ruslon07", "ruslon07@gmail.com", 17, "Xorazm")
+user2 = User("Aliya Mirzaeva", "aliya_m", "aliya_m@gmail.com", 22, "Toshkent")
 
 print(user1.get_info())
 print(user2.get_info())
