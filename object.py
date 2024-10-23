@@ -20,9 +20,9 @@ class Avto:
 class Avtosalon:
     """Avtosalon klassi"""
     def __init__(self, nomi, manzil):
-        self.nomi = nomi            # Salon nomi
-        self.manzil = manzil        # Salon manzili
-        self.avtomobillar = []      # Salondagi avtomobillar ro'yxati
+        self.nomi = nomi
+        self.manzil = manzil
+        self.avtomobillar = []
 
     def add_avto(self, avto):
         """Salonga yangi avtomobil qo'shish metodi"""
