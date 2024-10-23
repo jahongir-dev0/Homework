@@ -1,10 +1,10 @@
 class Avto:
     def __init__(self, model, rang, narh, yil, km=0):
-        self.model = model  # Avtomobil modeli
-        self.rang = rang    # Avtomobil rangi
-        self.narh = narh    # Avtomobil narxi
-        self.yil = yil      # Ishlab chiqarilgan yili
-        self.km = km        # Yurgan kilometraj, standart qiymati 0
+        self.model = model
+        self.rang = rang
+        self.narh = narh
+        self.yil = yil
+        self.km = km
 
     def get_info(self):
         """Avto haqida ma'lumot beruvchi metod"""
